@@ -92,45 +92,5 @@ function LoadMetar(station_id) {
 				text += "<SPAN CLASS='metar_label'>Precipitation</SPAN><SPAN CLASS='metar_data'>" + m.pcp24hr_in + " in last 24 hours</SPAN><BR>";
 			}
 
-			
-			$('#metar_report').append(text);
-			/*
-			$('#raw_text').html(metar.data.METAR.raw_text);
-			$('#station_id').html(metar.data.METAR.station_id);
-			$('#observation_time').html(metar.data.METAR.observation_time);
-			$('#temp_c').html(metar.data.METAR.temp_c);
-			$('#dewpoint_c').html(metar.data.METAR.dewpoint_c);
-			$('#wind_dir_degrees').html(metar.data.METAR.wind_dir_degrees);
-			$('#wind_speed_kt').html(metar.data.METAR.wind_speed_kt);
-			if (metar.data.METAR.wind_gust_kt) {
-				$('#wind_gust_kt').html(" with gusts up to " + metar.data.METAR.wind_gust_kt + " kts");
-			}
-			$('#visibility_statute_mi').html(metar.data.METAR.visibility_statute_mi);
-			$('#altim_in_hg').html(metar.data.METAR.altim_in_hg);
-			$('#sea_level_pressure_mb').html(metar.data.METAR.sea_level_pressure_mb);
-			$('#latitude').html(metar.data.METAR.latitude);
-			$('#longitude').html(metar.data.METAR.longitude);
-			
-			$('#flight_category').html(metar.data.METAR.flight_category);
-			$('#three_hr_pressure_tendency_mb').html(metar.data.METAR.three_hr_pressure_tendency_mb);
-			$('#maxT_c').html(metar.data.METAR.maxT_c);
-			$('#minT_c').html(metar.data.METAR.minT_c);
-			$('#maxT24hr_c').html(metar.data.METAR.maxT24hr_c);
-			$('#minT24hr_c').html(metar.data.METAR.minT24hr_c);
-			$('#precip_in').html(metar.data.METAR.precip_in);
-			$('#pcp3hr_in').html(metar.data.METAR.pcp3hr_in);
-			$('#pcp6hr_in').html(metar.data.METAR.pcp6hr_in);
-			$('#pcp24hr_in').html(metar.data.METAR.pcp24hr_in);
-			$('#vert_vis_feet').html(metar.data.METAR.vert_vis_feet);
-			$('#elevation_m').html(metar.data.METAR.elevation_m);
-			
-			if (metar.data.METAR.sky_condition.length > 0) {
-				var sky_condition = "";
-				for (var i = 0; i < metar.data.METAR.sky_condition.length; i++) {
-					sky_condition += metar.data.METAR.sky_condition[i]['@attributes']['sky_cover'] + " at " + metar.data.METAR.sky_condition[i]['@attributes']['cloud_base_ft_agl'] + " ";
-				}
-				$('#sky_condition').html(sky_condition);
-			}
-*/
 	});	
 }
