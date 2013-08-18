@@ -1,0 +1,83 @@
+span {
+
+	text-align: center;
+}
+.container {
+	display: inline-block;
+	background-color: #F0F0F0;
+	font-family:verdana,arial;
+	font-size: 13px;
+	text-align: center;
+	border-radius: 16px;
+	border: 1px solid #A1A1A1;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-bottom: 12px;
+	padding-top: 4px;
+}
+
+.station_container {
+	display: inline-block;
+	background-color: #F0F0F0;
+	font-family:verdana,arial;
+	font-size: 12px;
+	border-radius: 16px;
+	border: 1px solid #A1A1A1;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-bottom: 12px;
+	padding-top: 4px;
+}
+
+#stations1 {
+	height: 800px;
+	width: 250px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+#results {
+	width: 900px;
+	display: none;
+}
+
+.station_link {
+	cursor: pointer;
+	font-family:verdana,arial;
+	font-size: 12px;
+}
+
+.station_id_link {
+	display: inline-block;
+	width: 60px;
+}
+
+.station_site_link {
+	display: inline-block;
+}
+
+#metar_report {
+	display: inline-block;
+	background-color: #F0F0F0;
+	font-family:verdana,arial;
+	font-size: 12px;
+	border-radius: 16px;
+	border: 1px solid #A1A1A1;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-bottom: 12px;
+	padding-top: 4px;
+}
+
+.metar_label {
+	display: inline-block;
+	width: 180px;
+	text-align: left;
+	font-size: 14px;
+	padding: 4px;
+}
+.metar_data {
+	display: inline-text;
+	font-size: 14px;
+	width: 100%;
+	padding: 4px;
+}
