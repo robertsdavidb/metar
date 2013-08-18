@@ -7,7 +7,6 @@
 		<SCRIPT SRC='query-1.9.0.min.js'></SCRIPT>
 		<SCRIPT SRC='metar.js'></SCRIPT>
 		
-		<LINK REL='stylesheet' HREF='http://98.101.40.100/david/css/jquery-ui.css' />
 		<LINK REL='stylesheet' HREF='metar.css' />
 		
 		<SCRIPT>
