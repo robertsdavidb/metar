@@ -4,8 +4,7 @@
 	<head>
 	<meta charset="UTF-8">
 		<title>Test</title>	
-		<SCRIPT SRC='http://98.101.40.100/david/js/jquery-1.9.0.min.js'></SCRIPT>
-		<SCRIPT SRC='http://98.101.40.100/david/js/jquery-ui-1.10.1.custom.min.js'></SCRIPT>
+		<SCRIPT SRC='query-1.9.0.min.js'></SCRIPT>
 		<SCRIPT SRC='metar.js'></SCRIPT>
 		
 		<LINK REL='stylesheet' HREF='http://98.101.40.100/david/css/jquery-ui.css' />
