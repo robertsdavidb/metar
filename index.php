@@ -53,7 +53,7 @@
 	
 <DIV CLASS='station_container'>
 
-<DIV ID='stations1'>Loading Stations ..</DIV>
+<DIV ID='stations1'>Loading Stations ...</DIV>
 
 </DIV>
 </TD></TR></TABLE>
